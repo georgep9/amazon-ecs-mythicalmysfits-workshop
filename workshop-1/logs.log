@@ -1,0 +1,8 @@
+: 1660135945:0;docker build -t monolith-service .
+: 1660135976:0;printenv > /tmp/tmp-8290E0dhQUeAjPZ9txt
+: 1660136721:0;docker images
+: 1660136856:0;cd workshop-1
+: 1660136860:0;cd app
+: 1660136863:0;cd monolith-service
+: 1660136885:0;aws configure
+: 1660136976:0;TABLE_NAME=$(aws dynamodb list-tables | jq -r .TableNames[0])
