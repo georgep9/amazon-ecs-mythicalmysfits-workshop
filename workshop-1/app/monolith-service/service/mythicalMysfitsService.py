@@ -80,3 +80,5 @@ def adoptMysfit(mysfit_id):
 # listening on port 8080.
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
+
+ # This is a comment to force a Docker-rebuild
